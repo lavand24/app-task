@@ -1,0 +1,8 @@
+aws_region="us-west-2"
+stack="sample-app-tf"
+fargate-task-service-role="terraform-workshop-role"
+aws_ecr="sample-app"
+aws_profile="default"
+source_repo_name="sample-app"
+source_repo_branch="master"
+image_repo_name="sample-app"
