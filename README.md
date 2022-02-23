@@ -10,14 +10,6 @@ aws ssm put-parameter --name /database/password  --value mysqlpassword --type Se
 
    terraform creates ECS, codecommit, codebuild codepipeline, RDS ECR and ALB
 
-    View the RDS database using the Amazon RDS console.
-    View the ALB using the Amazon EC2 console.
-    View the ECS cluster using the Amazon ECS console.
-    View the ECR repo using the Amazon ECR console.
-    View the CodeCommit repo using the AWS CodeCommit console.
-    View the CodeBuild project using the AWS CodeBuild console.
-    View the pipeline using the AWS CodePipeline console.
-
  initially pipeline will fail since we havent pushed any code
 
 
